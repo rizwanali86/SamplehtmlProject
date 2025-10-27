@@ -1,0 +1,114 @@
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6;
+    font-family: Inter, sans-serif;
+    padding: 20px;
+    margin: 0;
+    flex-direction: column;
+}
+
+.blog{
+    background-color: #fff;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 786px;
+    max-width: 100%;
+    min-height: 480px;
+    padding: 20px;
+}
+
+.blog .heading-1{
+    font-size: 18px;
+    text-align: center;
+}
+
+.blog .heading-2 h2{
+    font-size: 30px;
+}
+
+.blog .heading-3 h3{
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    color: maroon;
+}
+
+.blog .heading-4 strong, h4{
+    font-size: 20px;
+
+}
+
+.blog .image{
+    text-align: center;
+}
+
+.blog .image img{
+    border-radius: 8px;
+}
+
+.blog .important .paragrapg strong, p{
+    font-size: 18px;
+}
+
+.blog .from-container form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.blog input{
+    background-color: #eee;
+    border-color: maroon;
+    margin: 8px ;
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.blog textarea{
+    background-color: #eee;
+    border-color: maroon;
+    margin: 8px 0;
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 8px;  
+}
+
+.blog button{
+    background-color: maroon;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 55px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.blog button:hover{
+    background-color: blueviolet;
+}
+
+.blog a{
+    background-color: maroon;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.blog a:hover{
+    background-color: blueviolet;
+}
